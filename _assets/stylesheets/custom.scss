@@ -1,0 +1,6 @@
+@import "bourbon";
+@import "neat";
+
+header, section { @include outer-container }
+article { @include span-columns(12) }
+

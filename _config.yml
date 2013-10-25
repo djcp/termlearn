@@ -1,0 +1,11 @@
+source: .
+plugins: ./_plugins
+markdown: maruku
+exclude: [Gemfile, Gemfile.lock]
+assets:
+  dirname: _assets
+  baseurl: /_assets/
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
